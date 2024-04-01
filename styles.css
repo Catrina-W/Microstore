@@ -5,9 +5,14 @@
     border-radius: 0;
 }
 
-/* Remove the jumbotron's default bottom margin */ 
-    .jumbotron {
+/* Remove the jumbotron's default bottom margin and add image */ 
+.jumbotron {
+    color: white;
     margin-bottom: 0;
+    background-image: url(computer\ glow.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 
 /* Add a gray background color and some padding to the footer */
